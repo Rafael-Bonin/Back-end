@@ -1,5 +1,5 @@
 FROM chuanwen/cowsay:latest
 
-ENTRYPOINT [ "/usr/games/cowsay" ]
+ENTRYPOINT [ "/usr/bruh/cowsay" ]
 
 CMD [ "#VQV Trybe" ]
