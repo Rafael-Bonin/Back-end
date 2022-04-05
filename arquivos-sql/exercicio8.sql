@@ -1,0 +1,1 @@
+SELECT CONCAT(first_name, ' ', last_name) AS Name FROM customer WHERE store_id = 2 AND active = 0 AND first_name <> 'KENNETH';
