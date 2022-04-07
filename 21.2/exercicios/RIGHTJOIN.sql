@@ -1,0 +1,1 @@
+SELECT m.*, t.name, t.location FROM Theater t RIGHT JOIN Movies m ON t.id = m.theater_id;
