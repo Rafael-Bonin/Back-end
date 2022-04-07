@@ -1,1 +1,1 @@
-SELECT m.title, bo.international_sales, bo.domestic_sales FROM BoxOffice bo INNER JOIN Movies m ON movie_id;
+SELECT m.title, bo.international_sales, bo.domestic_sales FROM BoxOffice bo INNER JOIN Movies m ON bo.movie_id = m.id;

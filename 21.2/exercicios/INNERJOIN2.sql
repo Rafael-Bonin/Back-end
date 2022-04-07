@@ -1,2 +1,2 @@
 select * from BoxOffice;
-SELECT m.title, (bo.international_sales + bo.domestic_sales) AS 'total sales' FROM BoxOffice bo INNER JOIN Movies m ON movie_id WHERE bo.international_sales > bo.domestic_sales;
+SELECT m.title, (bo.international_sales + bo.domestic_sales) AS 'total sales' FROM BoxOffice bo INNER JOIN Movies m ON bo.movie_id = m.id WHERE bo.international_sales > bo.domestic_sales;
