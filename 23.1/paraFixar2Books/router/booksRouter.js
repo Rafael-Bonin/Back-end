@@ -6,6 +6,5 @@ const router = express.Router();
 
 router.get('/books', allBooksMdw);
 router.get('/books/:id', booksByIdMdw);
-router.post('/books')
 
 module.exports = router;
